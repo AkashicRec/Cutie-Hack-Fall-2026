@@ -1,6 +1,7 @@
 import cv2
 
 aruco = cv2.aruco
+# new push
 
 dictionary = aruco.getPredefinedDictionary(aruco.DICT_5X5_50) 
 # 5x5 for a balance between distance and accuracy. 50 markers, 0-49
